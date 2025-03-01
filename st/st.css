@@ -3,11 +3,11 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fbcccc;
 }
 
 header {
-  background-color: #7c7ef8;
+  background-color: #7b7dfa;
   color: white;
   padding: 50px 20px;
 }
@@ -42,7 +42,7 @@ h2 {
 }
 
 button.cta-button {
-  background-color: #ff6600;
+  background-color: #1e6f3d;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -58,7 +58,7 @@ button.cta-button:hover {
 
 section {
   padding: 40px 20px;
-  background: rgb(241, 243, 134);
+  background: rgb(240, 241, 156);
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -105,8 +105,12 @@ section ul li {
   color: rgb(78, 36, 247);
 }
 
+#testimonials {
+  background-color: #8feaf6; /* Add a separate background color for testimonials */
+}
+
 footer {
-  background-color: #222;
+  background-color: #414383;
   color: white;
   padding: 20px;
 }
@@ -124,4 +128,43 @@ footer a img {
 
 footer a img:hover {
   transform: scale(1.2);
+}
+
+/* New styles for specific paragraphs using nth-of-type */
+header p {
+  color: #e7f1da;
+}
+
+#about p {
+  color: #007bff;
+}
+
+#testimonials p:nth-of-type(1) {
+  color: #196c2c;
+}
+
+#testimonials p:nth-of-type(2) {
+  color: #3540dc;
+}
+
+#pricing .plan p {
+  color: #e0edf8;
+}
+
+footer p:nth-of-type(1) {
+  color: #ffc107;
+}
+
+footer p:nth-of-type(2) {
+  color: #abe7f0;
+}
+
+footer a {
+  color: #f7e8bc; /* Set the color for the links in the footer */
+  text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+  color: #ffeb3b; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
 }
