@@ -151,6 +151,10 @@ header p {
   color: #e0edf8;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 footer p:nth-of-type(1) {
   color: #ffc107;
 }
@@ -167,4 +171,34 @@ footer a {
 footer a:hover {
   color: #ffeb3b; /* Change color on hover */
   text-decoration: underline; /* Add underline on hover */
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .plan {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  button.cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
 }
